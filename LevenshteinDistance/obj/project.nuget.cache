@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "ZnWZOV73LKzlaEmkQUvqFGfmSUYAk9N/Dk4seJsK21Z4WaNzHyK9lKtaz6O1lHvXyMfl+9lnH6Sk56tCOPraLQ==",
+  "success": true,
+  "projectFilePath": "D:\\Project\\Levenshtein Distance\\Backend\\LevenshteinDistance\\LevenshteinDistance\\LevenshteinDistance.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\SAINATH\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\SAINATH\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.1.4\\swashbuckle.aspnetcore.swagger.6.1.4.nupkg.sha512",
+    "C:\\Users\\SAINATH\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.1.4\\swashbuckle.aspnetcore.swaggergen.6.1.4.nupkg.sha512",
+    "C:\\Users\\SAINATH\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.1.4\\swashbuckle.aspnetcore.swaggerui.6.1.4.nupkg.sha512",
+    "C:\\Users\\SAINATH\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.15\\microsoft.netcore.app.host.win-x64.3.1.15.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LevenshteinDistance", "LevenshteinDistance\LevenshteinDistance.csproj", "{BAAAA0F3-0D4D-42EF-93B2-2B9B4922B3AB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BAAAA0F3-0D4D-42EF-93B2-2B9B4922B3AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAAAA0F3-0D4D-42EF-93B2-2B9B4922B3AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAAAA0F3-0D4D-42EF-93B2-2B9B4922B3AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAAAA0F3-0D4D-42EF-93B2-2B9B4922B3AB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {263478E7-95E1-493D-823C-F7DA9465EF0A}
+	EndGlobalSection
+EndGlobal
