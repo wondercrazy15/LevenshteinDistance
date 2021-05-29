@@ -1,0 +1,136 @@
+.main{
+    display:inline-flex;
+    min-width:850px;
+}
+
+.child {
+    display: inline-flex;
+    width: 30px;
+    min-width: 30px;
+    border-style: groove;
+    height: 24px;
+    justify-content: center;
+    border: 1px solid #ccc;
+    line-height: 24px;
+    margin: 0;
+    border-left: 0;
+    border-bottom: 0;
+}
+
+.headerCol {
+    display: inline-flex;
+    width: 30px;
+    min-width: 30px;
+    border-style: groove;
+    height: 24px;
+    justify-content: center;
+    border: 1px solid #999;
+    line-height: 24px;
+    margin: 0;
+    border-left: 0;
+    background: #ccc;
+    text-transform: uppercase;
+}
+
+.child-column:last-child .child {
+    border-bottom: 1px solid #ccc;
+}
+
+.headerRow {
+    background-color: #ccc;
+    text-align: center;
+    width: 30px;
+    min-width: 30px;
+    border: 1px solid #999;
+    height: 24px;
+    border-bottom: none;
+    text-transform: uppercase;
+}
+.headerRow:last-child {
+    border-bottom: 1px solid #999;
+}
+.main {
+    display: flex;
+    min-width: 850px;
+    max-width: 900px;
+    margin: 0 auto;
+    justify-content: flex-start;
+}
+
+.column-main {
+    min-width: 700px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header {
+    text-align: left;
+}
+
+.levenshtein-distance-main {
+    min-width: 50%
+}
+
+table, td {
+    border: 1px solid black;
+    text-align: center;
+    width: 50px;
+    min-width: 50px;
+    max-width: 50px;
+    height: 24px;
+    text-transform: uppercase;
+  }
+  
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    width: 20px;
+}
+
+.child-column:last-child .child:last-child {
+    background: #aedbec;
+}
+
+.error-message {
+    color: #f86c6b !important;
+    text-align: center;
+}
+
+.child-column {
+    width: 100%;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+p {
+    font-size: 20px;
+}
+
+b {
+    font-size: 24px;
+}
+/* 
+.child-column>:nth-child(1) {
+    background-color: #97d5e4;
+}
+
+.child-column:first-child {
+    background-color: #97d5e4;
+} */
+
+.edit{
+    background-color: #ffffe6;
+}
+
+.add{
+    background-color: #ccffe6;
+}
+
+.remove{
+    background-color: #ffeee6;
+}

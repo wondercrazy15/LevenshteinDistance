@@ -1,0 +1,41 @@
+<div class="container">
+  <div class="row">
+    <div class="col-lg-3 col-md-2"></div>
+    <div class="col-lg-6 col-md-8 login-box">
+      <div class="col-lg-12 login-key">
+        <i class="fa fa-key" aria-hidden="true"></i>
+      </div>
+      <div class="col-lg-12 login-title">
+        Calculate Levenshtein Distance
+      </div>
+
+      <div class="col-lg-12 login-form">
+        <div class="col-lg-12 login-form">
+          <form [formGroup]="form" (ngSubmit)="onSubmit()">
+            <div class="form-group">
+              <label class="form-control-label">FIRST STRING </label>
+              <input type="text" class="form-control" formControlName="string1" [(ngModel)]="request.string1"
+                [ngClass]="{ 'is-invalid': submitted && validateControl.string1.errors }">
+              <div *ngIf="submitted && validateControl.string1.errors" class="invalid-feedback">
+                <div *ngIf="validateControl.string1.errors.required">First String is required</div>
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="form-control-label">SECOND STRING </label>
+              <input type="text" class="form-control" formControlName="string2" [(ngModel)]="request.string2"
+                [ngClass]="{ 'is-invalid': submitted && validateControl.string2.errors }">
+              <div *ngIf="submitted && validateControl.string2.errors" class="invalid-feedback">
+                <div *ngIf="validateControl.string2.errors.required">Second String is required</div>
+              </div>
+            </div>
+
+            <div class="col-lg-12 loginbttm">
+              <div class="col-lg-6 login-btm login-button">
+                <button type="submit" class="btn btn-outline-primary">CALCULATE</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>

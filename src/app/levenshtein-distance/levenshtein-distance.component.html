@@ -1,0 +1,33 @@
+<div class="error-message" *ngIf="data == null">
+    <h2>You request is obsolete due to invalid token you passed</h2>
+</div>
+<div class="levenshtein-distance-main" *ngIf="data != null">
+    <div class="header">
+        <h2>Calculated Levenshtein Distance Table</h2>
+    </div>
+    <div class="main-wrapper">
+        <div class="main">
+            <div>
+                <div *ngFor="let item of data.rowHeader" class="headerRow">
+                    <span [ngClass]="{'hide':item == 'null'}" style="width:150px;"> {{item}} </span>
+                </div>
+            </div>
+
+            <div class="column-main">
+                <div class="headerCol" *ngFor="let item of data.columnHeader | slice:1">
+                    <span>
+                        {{item}}
+                    </span>
+                </div>
+
+                <div *ngFor="let item of data.reportData" class="child-column">
+                    <div class="child" *ngFor="let child of item">
+                        {{child}}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br />
+    <p>Levenshtein distance between <b class="uppercase">"{{firstString}}"</b> and <b class="uppercase">"{{secondString}}"</b> is <b class="uppercase">{{distance}}</b>.</p>
+</div>
